@@ -24,7 +24,6 @@ console.log(c);
 
 
 
-
 //Comparison Operators
 var d = 40;
 var e = 30;
@@ -142,3 +141,21 @@ function checkAge(age){
     checkAge(37);   
      
 }
+
+
+//For Loops in JavaScript
+
+var arr=[1,2,3,4,5,6,7];
+
+for(i = 0; i <arr.length; i++){
+    console.log(arr[i]);           //to show the loop being executed
+}
+
+
+arr.forEach(function(element){
+    console.log(element);         //to display each element
+});
+
+
+let o = 20;
+console.log(o);
